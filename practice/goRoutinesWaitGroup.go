@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-func main(){
+func GoRoutinesWaitGroup(){
 	fmt.Print("Hello World")
 	var mu sync.WaitGroup
 	
