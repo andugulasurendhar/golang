@@ -1,5 +1,6 @@
 # golang
-Go lang practice 
+<b>GoRoutinesMutex</b>: Using go routines and sync.mutex locks with the transaction management system example.<br> 
+<b>GoRoutinesWaitGroup</b>: Using go routines and sync.waitgroups with the printing 20 numbers example.<br>
 
 # go lang commands
 go build <br>
