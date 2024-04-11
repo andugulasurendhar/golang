@@ -7,7 +7,7 @@ go mod init `appname`<br>
 go mod tidy<br>
 go run .<br>
 go run `filename.go`<br>
-go get "external packages"<br>
+go get `external packages`<br>
 
 # git command
 git clone `git branch link`<br>
