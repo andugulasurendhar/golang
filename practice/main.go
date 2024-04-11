@@ -8,10 +8,12 @@ func main(){
 var i int
 	for{
 		fmt.Println(`
+*****************************************************		
 		Please select an option
 		1.call GoRoutinesWaitGroup print numbers
 		2.call GoRoutinesMutex Transaction example
-		0. Exit`)			
+		0. Exit
+*****************************************************`)			
 		_,err := fmt.Scan(&i)
 		if(err != nil){
 			fmt.Println("Invalid Input", err)

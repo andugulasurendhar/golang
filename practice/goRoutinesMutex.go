@@ -9,7 +9,6 @@ import (
 var bal int = 0
 
 func GoRoutinesMutex(){
-	fmt.Print("Hello World")
 	var mx sync.RWMutex
 	var n sync.WaitGroup
 
