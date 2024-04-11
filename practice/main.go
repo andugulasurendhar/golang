@@ -12,6 +12,7 @@ var i int
 		Please select an option
 		1.call GoRoutinesWaitGroup print numbers
 		2.call GoRoutinesMutex Transaction example
+		3. Linked List
 		0. Exit
 *****************************************************`)			
 		_,err := fmt.Scan(&i)
@@ -25,6 +26,7 @@ var i int
 		switch i{
 		case 1:GoRoutinesWaitGroup()
 		case 2:GoRoutinesMutex()
+		case 3:LinkedListfunc()
 		}
 	}
 }
