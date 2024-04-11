@@ -1,6 +1,28 @@
 package main
 
+import (
+	"fmt"
+)
+
 func main(){
-	// GoRoutinesWaitGroup()
-	GoRoutinesMutex()
+var i int
+	for{
+		fmt.Println(`
+		Please select an option
+		1.call GoRoutinesWaitGroup print numbers
+		2.call GoRoutinesMutex Transaction example
+		0. Exit`)			
+		_,err := fmt.Scan(&i)
+		if(err != nil){
+			fmt.Println("Invalid Input", err)
+			continue
+		}
+		if(i==0){
+			break
+		}
+		switch i{
+		case 1:GoRoutinesWaitGroup()
+		case 2:GoRoutinesMutex()
+		}
+	}
 }
