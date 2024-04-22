@@ -10,10 +10,11 @@ var i int
 		fmt.Println(`
 *****************************************************		
 		Please select an option
-		1.call GoRoutinesWaitGroup print numbers
-		2.call GoRoutinesMutex Transaction example
-		3. Linked List
-		0. Exit
+		1.GoRoutinesWaitGroup print numbers
+		2.GoRoutinesMutex Transaction example
+		3.Linked List
+		4.GoRoutinesWithChannels
+		0.Exit
 *****************************************************`)			
 		_,err := fmt.Scan(&i)
 		if(err != nil){
@@ -27,6 +28,7 @@ var i int
 		case 1:GoRoutinesWaitGroup()
 		case 2:GoRoutinesMutex()
 		case 3:LinkedListfunc()
+		case 4:GoRoutinesWithChannels()
 		}
 	}
 }
